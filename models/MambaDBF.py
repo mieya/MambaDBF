@@ -2,9 +2,8 @@ import torch
 import torch.nn as nn
 from layers.Embed import DataEmbedding_inverted,PatchEmbedding
 from layers.RevIN import RevIN
-from mamba_ssm import Mamba, Mamba_ffn,Mamba_vanilla_wo_conv
+from mamba_ssm import Mamba_ffn
 import torch.fft
-from sklearn.decomposition import PCA
 from einops import rearrange
 class FlattenHead(nn.Module):
     def __init__(self, n_vars, nf, target_window, head_dropout=0):
