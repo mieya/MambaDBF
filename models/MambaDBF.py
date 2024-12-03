@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from layers.Embed import DataEmbedding_inverted,PatchEmbedding
 from layers.RevIN import RevIN
-from mamba_ssm import Mamba_ffn
+from layers.Mambaffn import Mamba_ffn
 import torch.fft
 from einops import rearrange
 class FlattenHead(nn.Module):
