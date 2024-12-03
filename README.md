@@ -16,5 +16,5 @@ The repo is the official implementation for the paper: MambaDBF: Dual-Branch Mam
 3. Train and evaluate model. We provide the experiment scripts for all benchmarks under the folder `./scripts/`. You can reproduce the experiment results as the following examples:
 
    ```bash
-   sh ./scripts/long_term_forecast/Weather_script/MambaDBF.sh
+   sh ./scripts/MambaDBF_scripts/MambaDBF_Weather.sh
    ```
