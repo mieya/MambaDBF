@@ -1,6 +1,13 @@
 # MambaDBF
 The repo is the official implementation for the paper: MambaDBF: Dual-Branch Mamba with FFN for Time Series Forecasting
 
+Key codes:
+
+* For the architecture design of MambaDBF, please refer primarily to `models/MambaDBF.py`.
+* For Weighted Signal Decay Loss (EWSDL), please focus on the `exp/Exp_Long_Term_Forecast_EWSDL.py`.
+* For MambaFFN, please refer mainly to `layers/Mambaffn.py`.
+* 
+
 ## Usage
 1. Install Python 3.8. For convenience, execute the following command.
 
