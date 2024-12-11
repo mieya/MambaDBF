@@ -1,6 +1,6 @@
 export CUDA_VISIBLE_DEVICES=1
 
-model_name=MY
+model_name=MambaDBF
 d_model=256
 d_ff=256
 dstate=16
