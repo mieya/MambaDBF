@@ -87,12 +87,12 @@ python -u run.py \
   --dec_in 7 \
   --c_out 7 \
   --des 'Exp' \
-  --batch_size 32 \
+  --batch_size 16 \
   --d_state 16 \
   --d_ff 128 \
   --d_model 128 \
   --train_epochs 30 \
-  --patience 7 \
+  --patience 5 \
   --e_layers 2 \
   --d_layers 2 \
   --learning_rate 0.00005 \
@@ -116,14 +116,14 @@ python -u run.py \
   --enc_in 7 \
   --dec_in 7 \
   --c_out 7 \
-  --batch_size 32 \
+  --batch_size 16 \
   --d_state 16 \
   --d_ff 128 \
   --d_model 128 \
   --des 'Exp' \
   --learning_rate 0.00005 \
   --train_epochs 50 \
-  --patience 10 \
+  --patience 5 \
   --e_layers 2 \
   --d_layers 2 \
   --itr 1
