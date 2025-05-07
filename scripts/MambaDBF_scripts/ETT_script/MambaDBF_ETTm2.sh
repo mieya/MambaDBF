@@ -6,7 +6,7 @@ dstate=16
 lr=0.0001
 e_layers=2
 d_layers=1
-seq_len=192
+seq_len=96
 random_seed=2024
 
 python -u run.py \
