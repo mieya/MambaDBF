@@ -5,7 +5,7 @@ dstate=16
 lr=0.0001 
 d_ff=256
 d_model=128
-seq_len=192
+seq_len=96
 random_seed=3047
 
 python -u run.py \
