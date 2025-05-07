@@ -2,7 +2,7 @@ export CUDA_VISIBLE_DEVICES=1
 
 model_name=MambaDBF
 dstate=16
-seq_len=192
+seq_len=96
 e_fact=2
 random_seed=2024
 
