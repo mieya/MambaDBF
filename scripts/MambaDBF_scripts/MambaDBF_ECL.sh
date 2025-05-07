@@ -2,7 +2,7 @@ export CUDA_VISIBLE_DEVICES=0
 model_name=MambaDBF
 
 dstate=16
-seq_len=192
+seq_len=96
 e_layers=1
 d_layers=1
 e_fact=1
