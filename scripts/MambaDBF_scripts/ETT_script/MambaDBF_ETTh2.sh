@@ -4,7 +4,7 @@ model_name=MambaDBF
 d_model=256
 d_ff=256
 dstate=16
-seq_len=192
+seq_len=96
 e_fact=2
 random_seed=11
 
